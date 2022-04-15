@@ -6,8 +6,9 @@ main () {
         for (int j = 0; j < n-i; j++) {
            if (i % 2) {
              printf("+");
-        }else {
+        } else {
             printf("*");
+           }
         }
     }
      printf("\n");
